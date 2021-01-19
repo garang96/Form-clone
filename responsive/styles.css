@@ -1,0 +1,169 @@
+ body {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   border: 0;
+ }
+a {
+   text-decoration: none;
+   color: rgba(14, 13, 13, 0.938);
+ }
+
+ .deals {
+   color: red;
+   margin-left: 10%;
+   font-size: 200%;
+   font-weight: 2000;
+   margin-top: 2%;
+   margin-bottom: 2%;
+ }
+
+ .latest-deals {
+   margin-left: 10%;
+   width: 90%;
+   margin-right: 10%;
+ 
+ }
+
+ .latest-deal-img {
+   width: 250px;
+   cursor: pointer;
+   padding-top: 4%;
+   padding-bottom: 1%;
+ }
+
+ .deal {
+   text-align: center;
+   font-size: 15px;
+   font-weight: bolder;
+   line-height: 2%;
+ }
+
+ .text-div {
+   width: 80%;
+ }
+
+ .from-to {
+  color: rgba(14, 13, 13, 0.61);
+  font-size: 12px;
+ }
+
+ .image-div {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .deal:hover{
+   color: red;
+ }
+
+ @media(min-width: 768px) {
+  .latest-deals {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 80%;
+    margin: 0 20px 0 70px;
+  }
+  .deal {
+    font-size: 20px;
+    text-size-adjust: 80%;
+  }
+  .from-to {
+    font-size: 14px;
+  }
+  .latest-deal-img {
+    width: 280px;
+  }
+  .image-div {
+    background-color: rgb(114, 250, 137);
+  }
+  .deals {
+    margin-left: 8%;
+  }
+  .text-div {
+    width: 75%;
+  }
+
+  .from-to {
+    font-size: 13px;
+  }
+}
+
+ @media(min-width: 1024px) {
+  .latest-deals {
+    display: grid;
+    grid-template-columns: 17% 17% 17% 17%;
+    margin-left: 15%;
+    grid-gap: 2% 5%;
+    margin-top: 1.5%;
+  }
+  .latest-deal-img {
+    width: 220px;
+  }
+
+  .deals {
+    margin-left: 15%;
+  }
+}
+
+ .footer-div {
+  border-top: 1px solid rgba(0, 0, 0, 0.007);
+  padding-top: 20px;
+ }
+
+ .footer-icons {
+  text-align: center;
+  margin-top: 4%;
+  padding: 2% 0 2% 0;
+ }
+ .social-icon {
+  font-size: 20px;
+  color: white;
+  border: 1px solid grey;
+  padding: 1%;
+  border-radius: 50%;
+  background-color: grey;
+ }
+
+ .twitter,
+ .youtube,
+ .quora,
+ .email,
+ .camera,
+ .wifi {
+   margin-left: 4%;
+ }
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.178)
+}
+
+.footer-links {
+  text-align: center;
+  font-size: 60%;
+  padding-bottom: 4%;
+  padding-top: 2%;
+}
+
+.jobs,
+.contacts,
+.advert,
+.about,
+.event {
+  margin-left: 2%;
+}
+
+#footer-para {
+  text-align: center;
+  background-color: rgba(14, 13, 13, 0.61);
+  color: rgba(255, 255, 255, 0.548);
+  padding: 2%;
+  padding-top: 4%;
+}
+
+strong {
+  color: white;
+}
+ 
